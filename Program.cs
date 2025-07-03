@@ -21,6 +21,7 @@ builder.Services.AddDbContextFactory<ApplicationDbContext>(opt => opt.UseSqlServ
 builder.Services.AddGraphQLServer()
     .RegisterDbContextFactory<ApplicationDbContext>()
     .AddQueryType<Query>()
+    .AddMutationType<Mutation>()
     .AddProjections().AddSorting().AddFiltering();
 /*     .AddMutationType<Mutation>()
     .AddProjections()
