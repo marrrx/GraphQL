@@ -9,6 +9,6 @@ namespace GraphQL.Data.Exceptions
     public class DeleteResult
     {
         public bool Success { get; set; }
-        public Book DeleteBook { get; set; }
+        public object DeleteBook { get; set; }
     }
 }

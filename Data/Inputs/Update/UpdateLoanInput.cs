@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GraphQL.Data.Inputs
+namespace GraphQL.Data.Inputs.Update
 {
-    public record BookInput(string Title, int Year, int AuthorId);
+    public record UpdateLoanInput(DateTime returnDate);
 }

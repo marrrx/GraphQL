@@ -11,6 +11,7 @@ namespace GraphQL.Model.Entities
         public required string Title { get; set; }
         public int Year { get; set; }
         public int AuthorId { get; set; }
-        public  Author Author { get; set; }
+        public Author Author { get; set; }
+
     }
 }

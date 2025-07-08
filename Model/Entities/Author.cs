@@ -9,8 +9,8 @@ namespace GraphQL.Model.Entities
     {
         public int Id { get; set; }
         public required string Name { get; set; }
-        public required string Nationality { get; set; }
-
+        public int NationalityId { get; set; }
+        public Nationality Nationality { get; set; }
         public ICollection<Book> Books { get; set; } = new List<Book>();
     }
 }
