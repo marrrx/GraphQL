@@ -10,6 +10,7 @@
         "dependencies": {
           "HotChocolate.AspNetCore": "15.1.7",
           "HotChocolate.Data.EntityFramework": "15.1.7",
+          "HotChocolate.Types.Scalars": "15.1.7",
           "Microsoft.AspNetCore.OpenApi": "9.0.6",
           "Microsoft.EntityFrameworkCore": "9.0.6",
           "Microsoft.EntityFrameworkCore.Design": "9.0.6",
@@ -475,6 +476,17 @@
         },
         "runtime": {
           "lib/net9.0/HotChocolate.Types.Queries.dll": {
+            "assemblyVersion": "15.1.7.0",
+            "fileVersion": "15.1.7.0"
+          }
+        }
+      },
+      "HotChocolate.Types.Scalars/15.1.7": {
+        "dependencies": {
+          "HotChocolate.Types": "15.1.7"
+        },
+        "runtime": {
+          "lib/net9.0/HotChocolate.Types.Scalars.dll": {
             "assemblyVersion": "15.1.7.0",
             "fileVersion": "15.1.7.0"
           }
@@ -1833,6 +1845,13 @@
       "sha512": "sha512-Ou+LVy0mMMlAnVX4bwEHVcftT0K+9ezyQDHW9PbDZev/FwzFhaHgAl1wN0s0QNJMSpXny5DS258CBBY5D+KWpQ==",
       "path": "hotchocolate.types.queries/15.1.7",
       "hashPath": "hotchocolate.types.queries.15.1.7.nupkg.sha512"
+    },
+    "HotChocolate.Types.Scalars/15.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I5Ej8mZ15RD+j9l+R5o9MQD3je/S0RN6ZbpNjb3CJcBWu2Ik4lbo4Cq1hjZ1DKt+5x88+YiPVIvHQ5RIfuTg4Q==",
+      "path": "hotchocolate.types.scalars/15.1.7",
+      "hashPath": "hotchocolate.types.scalars.15.1.7.nupkg.sha512"
     },
     "HotChocolate.Types.Scalars.Upload/15.1.7": {
       "type": "package",

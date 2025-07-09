@@ -5,5 +5,5 @@ using System.Threading.Tasks;
 
 namespace GraphQL.Data.Inputs.Update
 {
-    public record UpdateLoanInput(DateTime returnDate);
+    public record UpdateLoanInput([property: GraphQLType<DateType>] DateTime returnDate);
 }

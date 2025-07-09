@@ -58,6 +58,10 @@
               "target": "Package",
               "version": "[15.1.7, )"
             },
+            "HotChocolate.Types.Scalars": {
+              "target": "Package",
+              "version": "[15.1.7, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.6, )"

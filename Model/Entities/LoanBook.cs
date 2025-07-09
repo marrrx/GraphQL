@@ -11,6 +11,5 @@ namespace GraphQL.Model.Entities
         public int LoanId { get; set; }
         public Book Book { get; set; }
         public Loan Loan { get; set; }
-
     }
 }

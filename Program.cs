@@ -3,7 +3,6 @@ using GraphQL.Data.Extensions.Book;
 using GraphQL.Data.Extensions.Loan;
 using GraphQL.Model.Context;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddCors(options =>
@@ -32,6 +31,7 @@ builder
     .AddTypeExtension<BookMutations>()
     .AddTypeExtension<LoanQueries>()
     .AddTypeExtension<LoanMutation>()
+    .AddType<DateType>()
     .AddProjections()
     .AddSorting()
     .AddFiltering();

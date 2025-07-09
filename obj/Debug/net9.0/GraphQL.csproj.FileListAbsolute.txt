@@ -209,3 +209,4 @@ C:\Users\anton\OneDrive\Documents\Residencias 2025\ENTREGABLES\GraphQL\bin\Debug
 C:\Users\anton\OneDrive\Documents\Residencias 2025\ENTREGABLES\GraphQL\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\anton\OneDrive\Documents\Residencias 2025\ENTREGABLES\GraphQL\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\anton\OneDrive\Documents\Residencias 2025\ENTREGABLES\GraphQL\obj\Debug\net9.0\GraphQL.sourcelink.json
+C:\Users\anton\OneDrive\Documents\Residencias 2025\ENTREGABLES\GraphQL\bin\Debug\net9.0\HotChocolate.Types.Scalars.dll

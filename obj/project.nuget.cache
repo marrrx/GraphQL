@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2TyIzBjh6SE=",
+  "dgSpecHash": "79eIbxFCd18=",
   "success": true,
   "projectFilePath": "C:\\Users\\anton\\OneDrive\\Documents\\Residencias 2025\\ENTREGABLES\\GraphQL\\GraphQL.csproj",
   "expectedPackageFiles": [
@@ -40,6 +40,7 @@
     "C:\\Users\\anton\\.nuget\\packages\\hotchocolate.types.errors\\15.1.7\\hotchocolate.types.errors.15.1.7.nupkg.sha512",
     "C:\\Users\\anton\\.nuget\\packages\\hotchocolate.types.mutations\\15.1.7\\hotchocolate.types.mutations.15.1.7.nupkg.sha512",
     "C:\\Users\\anton\\.nuget\\packages\\hotchocolate.types.queries\\15.1.7\\hotchocolate.types.queries.15.1.7.nupkg.sha512",
+    "C:\\Users\\anton\\.nuget\\packages\\hotchocolate.types.scalars\\15.1.7\\hotchocolate.types.scalars.15.1.7.nupkg.sha512",
     "C:\\Users\\anton\\.nuget\\packages\\hotchocolate.types.scalars.upload\\15.1.7\\hotchocolate.types.scalars.upload.15.1.7.nupkg.sha512",
     "C:\\Users\\anton\\.nuget\\packages\\hotchocolate.types.shared\\15.1.7\\hotchocolate.types.shared.15.1.7.nupkg.sha512",
     "C:\\Users\\anton\\.nuget\\packages\\hotchocolate.utilities\\15.1.7\\hotchocolate.utilities.15.1.7.nupkg.sha512",

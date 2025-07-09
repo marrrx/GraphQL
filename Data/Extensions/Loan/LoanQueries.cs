@@ -18,6 +18,7 @@ namespace GraphQL.Data.Extensions.Loan
                 .Include(l => l.LoanBooks)
                 .ThenInclude(lb => lb.Book)
                 .ThenInclude(b => b.Author)
+                .ThenInclude(a => a.Nationality)
                 .AsNoTracking()
                 .OrderBy(b => b.Id)
                 .ToListAsync();
@@ -32,6 +33,7 @@ namespace GraphQL.Data.Extensions.Loan
                 .Include(l => l.LoanBooks)
                 .ThenInclude(lb => lb.Book)
                 .ThenInclude(b => b.Author)
+                .ThenInclude(a => a.Nationality)
                 .AsNoTracking()
                 .FirstOrDefaultAsync(b => b.Id == id);
             return loan;
